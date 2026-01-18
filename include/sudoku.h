@@ -8,7 +8,6 @@
 #include <iostream>
 #include <vector>
 #include <vector2i.h>
-#include <math.h>
 #include <fstream>
 #include <map>
 
@@ -39,6 +38,11 @@ class Sudoku{
     * The size of sudoku, multiply this size*size
     */
     int size;
+
+    /*
+        The sqaure root of size. (3*3 has size of 9)
+    */
+    int sub_size;
 
 
     // PRIVATE METHODS
